@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+<style>
+.text{
+    position: relative;
+    z-index: 2;
+    color: white;
+}
+.ver{
+
+    height: 100vh !important;
+
+}
+.overlay{
+    background-color: rgba(192, 199, 240, 0.774);
+   height:  auto;
+   width:  100%;
+  z-index: 1;
+   position: absolute;
+   top: 0px;
+left: 0px;
+}
+
+.nav-link{
+ font-weight: bold;
+}
+    .nav-link:hover{
+    color: rgb(99, 195, 250) !important;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.hero-img{
+    background-image: url(images/hero-112.jpg);
+     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: black;
+    /* position: relative; */
+    height: auto;
+}
+.hero-text >h1{
+    font-size: 60px;
+    color: black;
+}
+.hero-text >p{
+    font-size: 20px;
+    color: black;
+}
+.hero-text >button{
+    width: 200px;
+    height: 50px
+    
+}
+.butn{
+  border: 2px solid black;
+  background-color: black;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  width: 250px;
+  height: 60px;
+}
+.butn:hover{
+  background-color: white;
+  color: black;
+  border: 5px solid black;
+  transition: 2s ease;
+}
+.topbutt{
+    background-color: rgb(99, 195, 250) !important;
+    color: white;
+    border: none;
+    width: 200px;
+}
+.topbutt:hover{
+    background-color: rgb(243, 197, 112) !important;
+   transition: 2s ease;
+}
+.her0-bu{
+      background-color: rgb(99, 134, 250) !important;
+    color: white;
+    border: none;
+    width: 200px;
+    height: 50px;
+}
+.her0-bu:hover{
+        background-color: rgb(243, 197, 112) !important;
+        transition: 2s ease;
+}
+.icpns{
+    width: 60px;
+    height: 60px;
+}
+.box:hover{
+background-color: black;
+color: white;
+}
+.imn{
+    width: 100%;
+    height: 70%;
+}
+.or{
+    background-color: rgb(241, 198, 117);
+}
+.bl{
+    background-color: rgb(0, 195, 255);
+
+}
+.pag:hover{
+    filter: brightness(50%);
+}
+.pag{
+       width: 100%;
+    height: 100%;
+}
+.blue{
+    color: rgb(0, 195, 255);
+}
+.bor{
+  
+    padding: 20px;
+    border-radius: 30px !important;
+}
+.bor:hover{
+    background-color: black !important;
+    color: white;
+}
+.wh{
+       width: 100%;
+    height: 100%;
+}
+.wh:hover{
+    filter: brightness(50%);
+    transition: 2s ease;
+}
+.red:hover{
+    color: orangered;
+    font-weight: bold;
+}
+
+</style>
+
+</head>
+<body>
+  <!-- nav start -->
+<nav class="navbar bg-white navbar-expand-lg fixed-top">
+    <!-- <nav class="navbar-expand-lg  bg-body-tertiary fixed-top "> -->
+  <div class="container-fluid">
+    <a class="navbar-brand " href="#"><img src="images/Group-15.svg"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="images/Group-15.svg" alt=""></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+    
+          <li class="nav-item">
+            <a class="nav-link" href="#">HOME</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="#">ABOUT</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="#">PACKAGES</a>
+           </li>
+           <li class="nav-item">
+            <a class="nav-link" href="#">CONTACT</a>
+          </li>
+
+      
+        </ul>
+        <button class="topbutt">GET QUOTE</button>
+      </div>
+    </div>
+  </div>
+</nav>
+  <!-- nav end -->
+
+    <!-- hero section -->
+<section class="hero-img" data-aos="zoom-in">
+    <div class="overlay"></div>
+    <br><br><br><br><br><br>
+    <br><br>
+<div class="hero-text container text-black text text-center">
+    <h1 data-aos="fade-up">Heating and Air <br>
+Conditioning Specialist</h1>
+<p data-aos="fade-up">Curated journeys to the world's most extraordinary destinations. <span><br> Let us transform your travel dreams into unforgettable memories.</span></p>
+<button data-aos="fade-up" class="her0-bu">Call For Visit</button>
+<br><br><br><br><br><br>
+</div>
+
+</section>
+<br><br><br><br><br>
+    <!-- hero section end -->  
+
+<!-- page 1 start -->
+<section class="container">
+    <div class="row text-center justify-content-center align-items-center">
+        <div class="col-md-4">
+<div class="card shadow p-3 mb-5 bg-body rounded  text-center justify-content-center align-items-center" >
+  <img src="images/brightness_5_24dp_0000F5_FILL0_wght400_GRAD0_opsz24.png" class="card-img-top icpns" alt="..." data-aos="zoom-in">
+  <div class="card-body " data-aos="fade-up">
+    <h5 class="card-title">Heating System Installation</h5>
+    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+   
+  </div>
+</div>
+</div>
+
+        <div class="col-md-4">
+<div class="card shadow p-3 mb-5 bg-body rounded text-center justify-content-center align-items-center" >
+  <img src="images/real_estate_agent_24dp_0000F5_FILL0_wght400_GRAD0_opsz24.png" class="card-img-top icpns" alt="..." data-aos="zoom-in">
+  <div class="card-body" data-aos="fade-up">
+    <h5 class="card-title">Heating System Installation</h5>
+    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+
+  </div>
+</div>
+</div>
+        <div class="col-md-4">
+<div class="card shadow p-3 mb-5 bg-body rounded text-center justify-content-center align-items-center" >
+  <img src="images/flight_land_24dp_0000F5_FILL0_wght400_GRAD0_opsz24.png" class="card-img-top icpns" alt="..." data-aos="zoom-in">
+  <div class="card-body" data-aos="fade-up">
+    <h5 class="card-title">Heating System Installation</h5>
+    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+   
+  </div>
+</div>
+        </div>
+
+  <button class="butn">View More</button>
+    </div>
+  <hr>
+  <section class="text-center">
+    <div class="row">
+        <br><br>
+        <div class="col-md-3 box" data-aos="fade-up">
+            <br>
+            <h4>Logoispum</h4>
+            <br>
+        </div>
+        <br><br>
+        <div class="col-md-3 box" data-aos="fade-up">
+            <br>
+            <h4>Logoispum</h4>
+            <br>
+        </div>
+
+        <div class="col-md-3 box" data-aos="fade-up">
+            <br>
+            <h4>Logoispum</h4>
+            <br>
+        </div>
+        <div class="col-md-3 box" data-aos="fade-up">
+            <br>
+            <h4>Logoispum</h4>
+            <br>
+        </div>
+    </div>
+  </section>
+</section>
+
+<!-- page 1 end -->
+<br><br><br><br>
+
+<!-- page 2 start -->
+<section class="container bg-light">
+    <br><br>
+<div class="row">
+
+    <div class="col-md-6" data-aos="fade-up">
+<h1>Experience Quality Air Conditioning Service in Broklyn New York</h1> <br>
+<p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Proin eget tortor risus.</p>
+<button class="her0-bu"> LEARN MORE</button>
+<br><br>
+    </div>
+
+    <div class="col-md-6">
+<img src="images/about-us11.png" class="imn" alt="" data-aos="zoom-in">
+<div class="row text-center">
+    <br>
+    <div class="col-md-6 or" data-aos="fade-up"> <br>  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+    <div class="col-md-6 bl" data-aos="fade-up"> <br> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+</div>
+    </div>
+
+</div>
+
+</section>
+<br><br><br><br>
+<!-- page 2 end -->
+
+<!-- page 3 start  -->
+ <section class="text-center">
+    <br><br><br><br><br><br>
+    <h1 data-aos="fade-up">AC Repair & Installation</h1>
+<h1 data-aos="fade-up">In Your Locality</h1>
+<br><br>
+<p data-aos="fade-up">Read More</p>
+<br><br>
+<img src="images/how-we-work.jpg" class="pag" alt="" data-aos="zoom-in">
+ </section>
+<!-- page 3 end -->
+<br><br><br><br> <br><br><br>
+<!-- page 4 start -->
+ <section class="container text-center align-items-center justify-content-center">
+<h1 data-aos="fade-up">Number Speaks</h1>
+<p data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, <br><span>luctus nec ullamcorper mattis, pulvinar dapibus leo.</span></p>
+ <br><br><br>
+<div class="row">
+
+    <div class="col-md-4 bor shadow p-3 mb-5 bg-body rounded">
+        <br><br>
+        <h1 class="blue" data-aos="fade-up">150</h1>
+        <p data-aos="fade-up">Air Conditioning Repairs and Install</p>
+    </div>
+     <div class="col-md-4 bor shadow p-3 mb-5 bg-body rounded">
+        <br><br>
+        <h1 class="blue" data-aos="fade-up">100</h1>
+        <p data-aos="fade-up">Air Conditioning Repairs and Services</p>
+    </div>
+     <div class="col-md-4 bor shadow p-3 mb-5 bg-body rounded">
+        <br><br>
+        <h1 class="blue" data-aos="fade-up">250</h1>
+        <p data-aos="fade-up">Customizers are Satisfied with our Services</p>
+    </div>
+</div>
+ </section>
+<!-- page 4 end -->
+
+<!-- page 5 start -->
+ <section>
+    <div class="images container-fluid">
+        <div class="row">
+
+            <div class="col-md-4">
+<img src="images/1.png" class="wh mb-3" alt="" data-aos="zoom-in">
+            </div>
+                       <div class="col-md-4">
+<img src="images/2.png" class="wh mb-3" alt="" data-aos="zoom-in">
+            </div>
+
+                       <div class="col-md-4">
+<img src="images/3.png" class="wh mb-3" alt="" data-aos="zoom-in">
+            </div>
+
+
+        </div>
+
+                <div class="row">
+
+            <div class="col-md-4">
+<img src="images/4.jpg" class="wh mb-3" alt="" data-aos="zoom-in">
+            </div>
+                       <div class="col-md-4">
+<img src="images/5.png" class="wh mb-3" alt="" data-aos="zoom-in">
+            </div>
+
+                       <div class="col-md-4">
+<img src="images/6.png" class="wh mb-3" alt="" data-aos="zoom-in">
+            </div>
+
+
+        </div>
+    </div>
+ </section>
+<!-- page 5 end -->
+<br><br><br><br><br>
+
+<!-- page 6 start -->
+ <section class="text-center align-items-center justify-content-center container">
+    <h1 data-aos="fade-up">TESTIMONALS</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
+luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+<div class="row">
+
+    <div class="col-md-6">
+        <br><br><br>
+<img src="images/client-1.png" alt="" data-aos="zoom-in">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+<p>⭐⭐⭐⭐⭐</p>
+<h6>Jim Doe</h6>
+    </div>
+
+      <div class="col-md-6">
+        <br><br><br>
+<img src="images/client-2.png" alt="" data-aos="zoom-in">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+<p>⭐⭐⭐⭐⭐</p>
+<h6>Stefanie Willson</h6>
+    </div>
+
+</div>
+<div class="row">
+
+    <div class="col-md-6">
+        <br><br><br>
+<img src="images/client-3.png" alt="" data-aos="zoom-in">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+<p>⭐⭐⭐⭐⭐</p>
+<h6>Martha Stew</h6>
+    </div>
+
+      <div class="col-md-6">
+        <br><br><br>
+<img src="images/client-4.png" alt="" data-aos="zoom-in">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+<p>⭐⭐⭐⭐⭐</p>
+<h6>Peneloper Smith</h6>
+    </div>
+
+</div>
+ </section>
+<!-- page 6 end -->
+<br><br><br><br>
+
+<!-- page 7 start -->
+<section class="container-fluid  align-items-center justify-content-center">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="images/last-picture.jpg" class="pag" alt="" data-aos="zoom-in">
+        </div>
+          <div class="col-md-6">
+            <br>
+           <p>Why Choose Us?</p>
+           <h1>Focus On Getting Our Jobs Done</h1> <br>
+          <br> <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Proin eget tortor risus. Vivamus suscipit tortor eget felis porttitor volutpat</p>
+           <button class="her0-bu">FREE CONSULTATION</button>
+           <br><br>
+        </div>
+    </div>
+</section>
+
+
+<!-- page 7 end -->
+
+<!-- footer start -->
+<footer class="bg-dark text-white">
+    <br><br>
+    <div class="container">
+        <div class="row container">
+    <div class="col-md-3">
+        <br>
+        <h4>About</h4>
+        <p class="red">2307 Beverley Rd Brooklyn</p>
+        <p>New York info@example.com</p>
+        <p>+ (0712) 819 79 555.</p>
+    </div>
+    <div class="col-md-3">
+        <br>
+        <h4 class="red">Quick Links</h4>
+        <p class="red">Home</p>
+        <p class="red">About</p>
+        <p class="red">Packages</p>
+        <p class="red">Contact</p>
+    </div>
+    <div class="col-md-3">
+        <br>
+        <h4 class="red">Contact</h4>
+        <p class="red">455 West Orchard Street Kings Mountain, NC 280867</p>
+        <p class="red">03370365852</p>
+        <p class="red">arshiayaseen751@gmail.com</p>
+    </div>
+    <div class="col-md-3 align-itms-center justify-content-center">
+        <br>
+        <h4 class="red">Follow Us</h4>
+        <p class="red">Instagram</p>
+        <p class="red">Twitter</p>
+        <p class="red">Linkden</p>
+        <p class="red">Facebook</p>
+    </div>
+</div>
+<hr>
+<p class="text-center">Copyright © 2025 Heating And A/C Technician</p>
+<br>
+</footer>
+    </div>
+
+<!-- footer end -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>
